@@ -1,0 +1,12 @@
+.BuildBundleQueueCard {
+  min-width: 100px;
+  max-width: 400px;
+  margin: 0 0 5px 5px;
+
+  .MuiCardContent-root {
+    padding: 4px;
+  }
+  .MuiCardHeader-root {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,13 @@
+.DockerRegistryCard {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 0 5px 5px;
+  
+  .MuiCardHeader-root {
+    padding: 12px;
+  }
+
+  .MuiCardContent-root {
+    padding: 0px 12px 12px 12px!important;
+  }
+}

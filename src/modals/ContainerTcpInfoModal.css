@@ -1,0 +1,7 @@
+.ContainerTcpInfoModal {
+  td {
+    font-family: monospace, monospace;
+    font-size: 0.9rem;
+    text-wrap: nowrap;
+  }
+}

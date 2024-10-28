@@ -1,0 +1,8 @@
+.AddBundleModal {
+  .MuiFormControl-root {
+    margin: 5px 0;
+  }
+  .formContainer {
+    margin: 5px 0;
+  }
+}

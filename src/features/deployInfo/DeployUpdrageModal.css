@@ -1,0 +1,96 @@
+.UpgradePackModalTooltip {
+  background-color: #121212;
+}
+
+.DeployUpdrageModal {
+  top: 5%;
+  left: 5%;
+  overflow: auto;
+  position: absolute;
+  background-color: var(--color-background-paper);
+  border: 2px solid #000;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+
+  .FormContent {
+    max-width: calc(95vw - 100px);
+    max-height: calc(95vh - 190px);
+    overflow: auto;
+
+    .pcidList {
+      padding-right: 5px;
+      overflow-y: auto;
+      max-height: calc(95vh - 200px);
+
+      #bundleId {
+        margin-top: -4px;
+      }
+  
+      .MuiTypography-root {
+        width: fit-content;
+      }
+
+      >.MuiPaper-root {
+        flex-grow: 0;
+      }
+
+      .MuiIconButton-root {
+        width: 32px;
+        height: 32px;
+      }
+
+      .MuiBadge-badge {
+        right: 10px;
+        top: 10px;
+        background-color: #333;
+        color: var(--color-success);
+        min-width: 0;
+        min-height: 0;
+        height: 16px;
+        width: 16px;
+        padding: 0 1px;
+
+        .MuiSvgIcon-root {
+          font-size: 0.8rem;
+          z-index: 9999;
+        }
+      }
+
+    }
+
+    scrollbar-track-color: var(--color-background-paper);
+    ::-webkit-scrollbar-button {  background-color: #666; display: none;}
+    ::-webkit-scrollbar-track-piece { background-color: var(--color-background-paper);}
+
+    .detailsCol {
+      padding: 0 5px 0 3px;
+      /* height: auto; */
+      min-width: 400px;
+      max-width: calc(80vw - 220px);
+      width: 100vw;
+      max-height: calc(95vh - 200px);
+      overflow-y: scroll;
+      overflow-x: auto;
+
+      >.MuiPaper-root {
+        flex-grow: 0;
+      }
+
+      .addonRow {
+        margin-top: 3px;
+
+        .addonsCount {
+          width: 60px;
+          margin-top: 0;
+          .MuiInputBase-root {
+            height: 32px;
+          }
+        }
+      }
+
+      button {
+        height: 32px;
+      }
+    }
+  }
+}

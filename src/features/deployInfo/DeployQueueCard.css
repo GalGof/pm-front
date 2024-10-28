@@ -1,0 +1,8 @@
+.DeployQueueCard {
+  .MuiCardContent-root {
+    padding: 4px;
+  }
+  .MuiCardHeader-root {
+    padding: 4px 12px;
+  }
+}

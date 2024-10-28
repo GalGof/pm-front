@@ -1,0 +1,22 @@
+.DeployedPackCard {
+  min-width: 300px;
+  max-width: 450px;
+  margin: 0 0 5px 5px;
+
+  .MuiAccordionDetails-root {
+    padding: 2px 4px 4px 4px;
+  }
+  .actionType1 {
+    background-color: var(--color-info);
+  }
+  .actionType2 {
+    background-color: var(--color-primary);
+  }
+  .actionType3 {
+    background-color: var(--color-info2);
+  }
+
+  .MuiDivider-root {
+    margin-top: 3px;
+  }
+}

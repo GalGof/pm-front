@@ -1,0 +1,19 @@
+.DockerEngineCard {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 0 5px 5px;
+
+  .labels {
+    .MuiChip-label span {
+      vertical-align: super;
+    }
+  }
+
+  .MuiCardContent-root {
+    padding: 0px 12px 12px 12px!important;
+  }
+
+  .MuiCardHeader-root {
+    padding: 12px;
+  }
+}

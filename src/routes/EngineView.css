@@ -1,0 +1,34 @@
+.EngineView {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--background-default);
+
+  .MuiAppBar-root .MuiToolbar-root {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+
+  .MuiStack-root button {
+    margin: 5px;
+  }
+  
+  .rawDockerTab {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+    max-height: calc(100vh - 84px);
+  }
+
+  .QueuePanel {
+    flex: 360px 160px;
+    bottom: 0px;
+    max-height: 360px;
+    padding: 5px;
+    overflow: auto;
+  }
+}

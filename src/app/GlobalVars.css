@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #90caf9;
+  --color-info2: #5cacf7;
+  --color-info: #29b6f6;
+  --color-success: #66bb6a;
+  --color-warning: #ffa726;
+  --color-warning-bg: #333;
+  --color-error: #f44336;
+  --color-background-paper: #121212;
+  --color-background-panel: #1A2027;
+  --color-background-panel2: #202b38;
+  /* --color-background-panel2: #232829; */
+  --background-default: #121212;
+}

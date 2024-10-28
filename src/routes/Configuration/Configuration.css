@@ -1,0 +1,12 @@
+.Configuration {
+  .MuiStack-root button {
+    margin: 5px;
+    vertical-align: bottom;
+  }
+  .MuiDivider-root {
+    margin: 5px 0;
+  }
+  .MuiCheckbox-root {
+    padding: 0px;
+  }
+}

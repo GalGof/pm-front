@@ -1,0 +1,43 @@
+.OptionalParamsConfiguration {
+  .MuiAccordionSummary-root {
+    padding: 0 8px;
+
+    .MuiChip-root {
+      background-color: var(--color-success);
+      color: #000;
+    }
+  }
+  .MuiAccordionDetails-root {
+    padding: 2px 4px;
+  }
+}
+
+.OverrideParamsComponent {
+
+  .MuiAccordionSummary-content {
+    margin: 6px 0;
+  }
+
+  /* .MuiAccordionSummary-expandIconWrapper {
+    .MuiSvgIcon-root {
+      font-size: 3rem!important;
+    }
+  } */
+
+  .nestedPanel {
+    margin: 0;
+  }
+}
+
+.BundleSelector {
+  flex: 1;
+
+  :nth-child(1) {
+    flex: 4;
+  }
+
+  :nth-child(2) {
+    flex: 8;
+    /* flex-grow: 1; */
+  }
+}

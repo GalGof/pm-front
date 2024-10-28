@@ -1,0 +1,25 @@
+.bundles-view {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--background-default);
+
+  .paginationPanel {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #itemsPerPage .MuiSelect-select {
+    width: 25px;
+  }
+
+  .content {
+    /* background-color: var(--background-default); */
+    padding: 10px;
+    overflow: auto;
+    flex: 1;
+  }
+}
